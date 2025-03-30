@@ -1,0 +1,25 @@
+{
+  "name": "mcp_falagaiotto",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "slack-protocol.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+  "engines": {
+    "node": "14.x"
+  },
+
+  "dependencies": {
+    "@slack/bolt": "^4.2.1",
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7"
+  }
+}
+
+
