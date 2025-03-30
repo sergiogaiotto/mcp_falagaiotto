@@ -5,21 +5,15 @@
   "license": "ISC",
   "author": "",
   "type": "commonjs",
-  "main": "slack-protocol.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-
-  "engines": {
-    "node": "14.x"
+    "start": "node app.js"
   },
 
   "dependencies": {
-    "@slack/bolt": "^4.2.1",
-    "axios": "^1.8.4",
-    "cheerio": "^1.0.0",
-    "dotenv": "^16.4.7"
+    "@slack/bolt": "^3.12.0",
+    "axios": "^1.3.4",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3"
   }
 }
-
-
