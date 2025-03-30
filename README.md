@@ -142,7 +142,7 @@ Uma vez instalado, os usuários podem:
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+Este projeto está licenciado sob a licença MIT.
 
 ## 👨‍💻 Autor
 
