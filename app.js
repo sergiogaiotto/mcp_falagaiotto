@@ -49,7 +49,7 @@ async function extrairConteudo() {
 }
 
 // Comando para acesso ao conteúdo do site
-app.command('/gaiotto', async ({ command, ack, say }) => {
+app.command('/falagaiotto', async ({ command, ack, say }) => {
   // Confirmando o recebimento do comando
   await ack();
   
@@ -117,28 +117,28 @@ app.command('/gaiotto', async ({ command, ack, say }) => {
 });
 
 // Mensagem de ajuda sobre o comando
-app.message('ajuda gaiotto', async ({ message, say }) => {
+app.message('ajuda falagaiotto', async ({ message, say }) => {
   await say({
     blocks: [
       {
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: '*Comando /gaiotto*'
+          text: '*Comando /falagaiotto*'
         }
       },
       {
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: 'Use o comando `/gaiotto` para ver o conteúdo mais recente do site falagaiotto.com.br diretamente no Slack.'
+          text: 'Use o comando `/falagaiotto` para ver o conteúdo mais recente do site falagaiotto.com.br diretamente no Slack.'
         }
       },
       {
         type: 'section',
         text: {
           type: 'mrkdwn',
-          text: 'Exemplo: `/gaiotto`'
+          text: 'Exemplo: `/falagaiotto`'
         }
       }
     ]
