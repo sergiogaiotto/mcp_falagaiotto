@@ -15,7 +15,7 @@ Este projeto cria um aplicativo Slack que permite que qualquer pessoa acesse fac
 - Comando Slack `/falagaiotto` para obter o conteúdo atual do site
 - Extração e formatação automática do conteúdo
 - Resposta formatada com título, conteúdo principal e link para o site
-- Sistema de ajuda integrado via comando "ajuda gaiotto"
+- Sistema de ajuda integrado via comando "ajuda falagaiotto"
 - Suporte a Socket Mode para fácil implantação sem necessidade de endpoints públicos
 
 ## 📋 Pré-requisitos
@@ -35,7 +35,7 @@ Este projeto cria um aplicativo Slack que permite que qualquer pessoa acesse fac
    - Em "OAuth & Permissions", adicione os escopos: `chat:write` e `commands`
    - Em "Socket Mode", ative esta funcionalidade e gere um App-Level Token
 5. Crie um comando slash em "Slash Commands":
-   - Nome do comando: `/gaiotto`
+   - Nome do comando: `/falagaiotto`
    - Descrição: "Acessa o conteúdo do site falagaiotto.com.br"
 
 ### 2. Clonar o repositório
@@ -129,8 +129,8 @@ Você pode adicionar mais comandos ou recursos modificando o arquivo `app.js`. A
 
 Uma vez instalado, os usuários podem:
 
-1. Usar o comando `/gaiotto` em qualquer canal para obter o conteúdo mais recente
-2. Digitar "ajuda gaiotto" para ver as instruções de uso
+1. Usar o comando `/falagaiotto` em qualquer canal para obter o conteúdo mais recente
+2. Digitar "ajuda falagaiotto" para ver as instruções de uso
 
 ## 🔍 Solução de Problemas
 
